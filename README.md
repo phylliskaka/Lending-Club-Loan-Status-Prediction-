@@ -37,7 +37,12 @@ These Dataset contain complete loan data for all loans issued through the 2007-2
 4. Oversample the minor class in the dataset  
 
 ## Model Prediction 
-Logistic regression 
+Logistic regression. 
+
+### OOP 
+According to the function of thisi project. I built 3 classes: Data(for Data preprocessing), Feature_Select(EDA), Model(predicting).   
+Methods in class Model: 
+self.fit(X_train, y_train), self.predict(X_test), self.predict_proba(X_test), self.evaluate(X_test, y_test), self.tune_parameters(X_train, y_train). 
 
 ## Result
 Achieving 93% testing accuracy 
